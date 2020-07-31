@@ -26,7 +26,7 @@ This application gives users a fast and easy way to track their money. It allows
 
 ## Link to deployed application
 
-https://immense-sierra-06898.herokuapp.com/
+https://fathomless-dawn-28157.herokuapp.com/
 
 ## Licenses
 
@@ -52,4 +52,4 @@ This homework was fairly challenging for me for a couple of reasons. It required
 
 ## Media
 
-![Image of deployed application](public\images\budgetpic.JPG)
+![Image of deployed application](https://github.com/Michael-Veiga/budget-tracker/blob/master/public/images/budgetpic.JPG?raw=true)

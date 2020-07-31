@@ -14,11 +14,14 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 app.use(express.static('public'));
-
-mongoose.connect('mongodb://localhost/budget', {
+// if deployed, use the deployed database. Otherwise use the local mongoHeadlines database
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/budget', {
   useNewUrlParser: true,
   useFindAndModify: false,
 });
+
+// Connect to the Mongo DB
+mongoose.connect(MONGODB_URI);
 
 // routes
 app.use(require('./routes/api.js'));
